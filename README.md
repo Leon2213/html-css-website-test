@@ -3,4 +3,4 @@ simple skeleton for a webpage I used for testing out some basic html and css con
 
 ![img1](images/page0.PNG)
 
-![img1](images/page4.PNG)
+![img1](images/page1.PNG)
