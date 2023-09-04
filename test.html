@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="This is a website that is very cool">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="leon, cool, developer">
+	<meta name="author" content="Leon W.A">
+	<meta "name=application-name" content="Leons website">
+	<meta name="generator" content="Sublime-text">
+	<meta name="robots" content="noindex">
+	<meta http-equiv="refresh" content="900">
+	<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsave-eval ws: ;
+	style-src 'self' 'unsafe-inline';
+	script-src *;
+	media-src *;
+	font-src *;
+	connect-src *;
+	img-src 'self' data: content:;">
+	<title>Forms!</title>
+</head>
+<body>
+	<form action="">
+		<fieldset>
+			<legend>
+				Your details:
+			</legend>
+			<label>
+				Name:
+				<input type="text" name="name" size="30" maxlength="100">
+			</label>
+			<br/>
+			<label>
+				Email:
+				<input type="email" name="email" size="30" maxlength="100">
+			</label>
+			<br/>
+		</fieldset>
+		<br/>
+		<fieldset>
+			<legend>
+				Your Review:
+			</legend>
+			<p>
+				<label for="hear about">
+					How did you hear about us?
+				</label>
+				<select name="referrer" id="hear-about">
+					<option value="google">google</option>
+					<option value="friend">friend</option>
+					<option value="advert">advert</option>
+					<option value="other">other</option>
+				</select>
+			</p>
+			<p>
+				Would you visit again?
+				<br />
+				<label>
+					<input type="radio" name="rating" value="yes" />
+					Yes
+				</label>
+				<label>
+					<input type="radio" name="rating" value="no" />
+					No
+				</label>
+				<label>
+					<input type="radio" name="rating" value="maybe" />
+					Maybe
+				</label>
+			</p>
+			<p>
+				<label for="comments">
+					Comments:
+				</label>
+				<br/>
+				<textarea rows="4" cols="40" id="comments">
+				</textarea>
+			</p>
+			<label>
+				<input type="checkbox" name="subscribe" checked="checked" />
+				Sign me up for email updates
+			</label>
+			<br/>
+			<input type="submit" name="Submit review">
+		</fieldset>
+	</form>
+
+</body>
+</html>

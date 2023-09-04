@@ -1,0 +1,203 @@
+body {
+    background-color: white;
+    width: 99%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #141C22;
+    text-align:center;
+    margin-top: -25px;
+    margin-bottom: -24px;
+    margin-left: -12px;
+    margin-right: -12px;
+
+}
+
+header h2 {
+    padding: 30px;
+    color: white;
+    border: black;
+    font-family: sans-serif;
+}
+
+h2 {
+    margin-bottom: 0px;
+}
+
+nav {
+    background-color: #F4F4F4;
+    padding: 10px;
+    margin: 5 5;
+    /border-style:solid;
+    border-color:grey;
+    /position: sticky;
+    /font-family: sans-serif;
+
+}
+nav ul {
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav li {
+    width: 25%;
+    display: inline-block;
+   font-size: 20px;
+}
+nav li a{
+    text-decoration: none;
+    color: #4B4B4B;
+}
+nav li a.fisketips{
+    color: #F63232;
+}
+
+.lista {
+
+}
+
+.lista ul {
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.lista li{
+      width: 25%;
+    display: inline-block;
+    font-size: 24px;
+    margin: 0 100px;
+}
+
+main {
+    margin-top: 24px;
+    margin-left: -12px;
+    margin-right: -12px;
+    background-image: url(images/view2.jpg);
+    background-size: cover;
+    background-repeat: ;
+    min-height: 1500px;
+
+}
+
+main aside {
+    border-style: solid;
+    border-color: grey;
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+
+}
+
+main aside p{
+    color: white;
+
+}
+
+.column1, .column2 {
+    /border-color: white;
+   / border-style: solid;
+    color: white;
+    float: left;
+    margin: 1%;
+    width: 31.3%;
+}
+
+
+.column1 article {
+   /border-style: solid;
+   /border-color: white;
+   margin: 5px;
+}
+.column2 article {
+   /border-style: solid;
+   /border-color: white;
+   margin: 5px;
+}
+
+.signup {
+    background-color: white;
+    border-style: solid;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.pike {
+    background-image: url(images/gäddakväll3.png);
+    text-align: center;
+    position: static;
+    width: 370px;
+    height: 450px;
+    border-style: solid;
+    border-color: white;
+
+}
+
+
+.pike a {
+    color: white;
+    font-family: sans-serif;
+}
+
+.perch {
+    background-image: url(images/abborre4.png);
+    text-align: center;
+    position: static;
+    width: 370px;
+    height: 450px;
+    border-style: solid;
+    border-color: white;
+
+}
+
+
+.perch a {
+    color: white;
+    font-family: sans-serif;
+}
+
+.trout {
+    background-image: url(images/trout.png);
+    text-align: center;
+    position: static;
+    width: 370px;
+    height: 450px;
+    border-style: solid;
+    border-color: white;
+
+}
+
+.trout a {
+    color: white;
+    font-family: sans-serif;
+}
+
+
+
+
+footer {
+    background-color: #141C22;
+    margin-left: -12px;
+    margin-right: -12px;
+    padding: 100px;
+    text-align:center;
+}
+
+footer p {
+    color: white;
+    font-family: sans-serif;
+    border-style: solid;
+    border-color: white;
+
+}
+
+footer a {   
+    border-style: solid;
+    border-color: white;
+}
+
+
+
+
